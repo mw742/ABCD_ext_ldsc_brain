@@ -71,6 +71,21 @@ Step 5: Munge GWAS summary statistics and run LDSC genetic correlation
         05_rg_ext_vs_img_pooled.slurm
 ```
 
+## Data access and responsible use
+
+This repository provides analysis code and does not contain participant-level research data. Users must obtain input data from authorized providers and follow all applicable data-use agreements and institutional requirements.
+
+To support reproducibility, document the cohort, data release or version, accession number or DOI where available, preprocessing steps, and exact code commit used.
+
+Generated files may contain participant identifiers, individual measurements, outcomes, or predictions. These files must not be uploaded to a public repository without appropriate authorization. The software license does not authorize redistribution of external datasets.
+
+## Validation status and updates
+
+This repository contains research code that may have errors or limitations that have not yet been identified. The source-code review conducted to date did not include end-to-end execution or independent reproduction of the associated study results.
+
+Issues identified during review include inconsistencies in imports and file paths, as well as a fallback that uses the test set for model selection when a separate validation set is unavailable. These issues require correction and subsequent validation.
+
+Users should independently evaluate whether the code is suitable for their intended analyses. Corrections resulting from further checks will be documented in the commit history or release notes, including any known effects on outputs.
 
 ---
 
