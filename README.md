@@ -78,6 +78,4 @@ Step 5: Munge GWAS summary statistics and run LDSC genetic correlation
 
 If this pipeline is used in a manuscript or repository, describe it as:
 
-Genome-wide Association and Genetic Correlation Analysis of Externalizing Behavior and Multimodal Neuroimaging Phenotypes in the ABCD Cohort.
-Mengman Wei & Qian Peng
-DOI:xxxx
+Wei, M. and Peng, Q., 2026. An Initial Genetic Correlation Analysis of Externalizing Behavior and Neuroimaging Phenotypes in the ABCD Cohort. medRxiv, pp.2026-07.
