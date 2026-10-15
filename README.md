@@ -79,13 +79,14 @@ To support reproducibility, document the cohort, data release or version, access
 
 Generated files may contain participant identifiers, individual measurements, outcomes, or predictions. These files must not be uploaded to a public repository without appropriate authorization. The software license does not authorize redistribution of external datasets.
 
+
 ## Validation status and updates
 
-This repository contains research code that may have errors or limitations that have not yet been identified. The source-code review conducted to date did not include end-to-end execution or independent reproduction of the associated study results.
+This repository provides research code that may contain undetected errors or limitations. Users should validate the code, configuration, and outputs for their intended analyses and record the exact code commit, software versions, and input data release used.
 
-Issues identified during review include inconsistencies in imports and file paths, as well as a fallback that uses the test set for model selection when a separate validation set is unavailable. These issues require correction and subsequent validation.
+Any documented testing applies to the specific code version, inputs, and computing environment assessed. Changes to these components may affect execution or results.
 
-Users should independently evaluate whether the code is suitable for their intended analyses. Corrections resulting from further checks will be documented in the commit history or release notes, including any known effects on outputs.
+Confirmed issues and corrections will be documented in the commit history or release notes, including any known effects on outputs. This notice does not replace the need to investigate and correct identified errors.
 
 ---
 
@@ -93,4 +94,4 @@ Users should independently evaluate whether the code is suitable for their inten
 
 If this pipeline is used in a manuscript or repository, describe it as:
 
-Wei, M. and Peng, Q., 2026. An Initial Genetic Correlation Analysis of Externalizing Behavior and Neuroimaging Phenotypes in the ABCD Cohort. medRxiv, pp.2026-07.
+Wei, M. and Peng, Q., 2026. An Initial Genetic Correlation Analysis of Externalizing Behavior and Neuroimaging Phenotypes in the ABCD Cohort. medRxiv, DOI: 10.64898/2026.07.13.26358013.
